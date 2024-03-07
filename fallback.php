@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 
 
-$url = $_GET["url"];
+$url = $_GET["https://stream.zeno.fm/sgyqj3qg4xivv"];
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_POST, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
