@@ -4,7 +4,7 @@ header('Content-Type: application/json');
 
 
 
-$url = $_GET["url"];
+$url = $_GET["https://mediastreamm.com/cp/get_info.php?p=8144"];
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_POST, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
